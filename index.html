@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Protfolio websites for sonu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="responsivenes.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/img/logo.png" alt="error" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#protfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="bi bi-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="bi bi-list" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Sonu</span> <br> Jha From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------about---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/img/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, vero. Delectus nam est
+                        excepturi repellendus quam dicta ipsum quaerat inventore consectetur, obcaecati nesciunt!
+                        Delectus, unde optio! Sit quas ipsa eligendi earum consectetur impedit, deserunt facilis,
+                        necessitatibus ipsum labore dolorum odit!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span> <br> Designer Web/App Interface</li>
+                            <li><span>Web Development</span> <br> Web App Development</li>
+                            <li><span>App Development</span> <br> Building Android/Ios Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2021-Current</span> <br> UI/UX Design Training at Et Institute</li>
+                            <li><span>2019-2021</span> <br>Team lead at StarApp LLc.</li>
+                            <li><span>2017-2019</span> <br> UI/UX Design Executive at Coin Digital Ltd.</li>
+                            <li><span>2016-2017</span><br> Intership at ekart eCommerce.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2016</span> <br> UI/UX Design Training at Institute</li>
+                            <li><span>2016</span> <br> MBA From MIT Bangalore.</li>
+                            <li><span>2014</span> <br> BBA From ISM Bangalore.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------services----------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="bi bi-code-slash"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ut odio atque debitis temporibus
+                        repellat optio nobis nesciunt maxime mollitia.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="bi bi-crop"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ut odio atque debitis temporibus
+                        repellat optio nobis nesciunt maxime mollitia.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="bi bi-app-indicator"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ut odio atque debitis temporibus
+                        repellat optio nobis nesciunt maxime mollitia.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------protfolio--------------------- -->
+    <div id="protfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/img/work-1.png" alt="error" class="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            <br> Download it from play store.
+                        </p>
+                        <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/img/work-2.png" alt="error" class="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            <br> Download it from play store.
+                        </p>
+                        <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/img/work-3.png" alt="error" class="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            <br> Download it from play store.
+                        </p>
+                        <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ---------------------contact----------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="bi bi-send-check-fill"></i> kuarny965@gmail.com</p>
+                    <p> <i class="bi bi-telephone-fill"></i> 01234567</p>
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com/factvillege650/" target="_blank"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="##" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+
+                        <a href="#" target="_blank"><i class="bi bi-envelope-at-fill"></i></a>
+                    </div>
+                    <a href="/img/resumejha.pdf" Download class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Your Name " required>
+                        <input type="email" name="email" placeholder="Enter Your Email Id" required>
+                        <textarea name="Message" rows="6" placeholder="Enter Your Meassage Here!"></textarea>
+                        <button type="submit" class=" btn2 ">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="copyrights">
+                <p>Copyrights &copy;. Made with <i class="bi bi-suit-heart-fill"></i> by Sonu.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="scripts.js"></script>
+   
+</body>
+
+</html>
